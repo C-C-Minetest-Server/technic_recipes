@@ -24,10 +24,6 @@ if minetest.get_modpath("farming") then
     dofile(modpath.."/farming.lua")
 end
 
-if minetest.get_modpath("flowers") and minetest.get_modpath("dye") then
-    dofile(modpath.."/farming.lua")
-end
-
 if minetest.get_modpath("terumet") then
     dofile(modpath.."/terumet.lua")
 end
